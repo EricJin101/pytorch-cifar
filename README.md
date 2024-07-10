@@ -39,3 +39,6 @@ python main.py --resume --lr=0.01
 - You need execute command below.
   - `sudo rmmod nvidia_uvm`
   - `sudo modprobe nvidia_uvm`
+
+- [why use `cudnn.benchmark = True`](https://zhuanlan.zhihu.com/p/73711222)
+  - speed up
